@@ -105,7 +105,7 @@ if [ $tpw = 4 ] || [ $tpw = 4 ]
 then
 echo "Install"|lolcat
 apt install openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Nethunter/nethunter.sh && bash nethunter.sh
-./start-nethunter.sh
+./nethunter.sh
 fi
 
 if [ $tpw = 5 ] || [ $tpw = 5 ]
